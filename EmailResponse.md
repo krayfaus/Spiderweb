@@ -18,7 +18,7 @@ browser.save_screenshot('screenshot.png')
 browser.close()
 ```
 
-If for some reason this does not work for your needs, you can use [Zyte SmartProxy Headless Proxy](https://docs.zyte.com/smart-proxy-manager/integrations/selenium.html#option-1-zyte-smartproxy-selenium), which allows you to authenticate to SPM beforehand, and use a localhost port as your proxy address.
+If for some reason this does not work for your needs, you can use [Zyte SmartProxy Headless Proxy](https://docs.zyte.com/smart-proxy-manager/integrations/selenium.html#option-2-zyte-smartproxy-headless-proxy), which allows you to authenticate to SPM beforehand, and use a localhost port as your proxy address.
 
 ### __Proxy Rotation__
 
@@ -28,7 +28,7 @@ To request a new session, use 'X-Crawlera-Session: create', and you'll receive t
 
 ### __Selecting IP Regions__
 
-Zyte SPM allows for country-level region restriction using the 'X-Crawlera-Region' header with a country code in ISO format (https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). You can use either upper or lower case (e.g., 'X-Crawlera-Region: FR' or 'X-Crawlera-Region: fr' for France).
+Zyte SPM allows for country-level region restriction using the 'X-Crawlera-Region' header with a country code in [ISO format](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). You can use either upper or lower case (e.g., 'X-Crawlera-Region: FR' or 'X-Crawlera-Region: fr' for France).
 
 If you have any further questions or need additional assistance, feel free to message, we are here to help.
 

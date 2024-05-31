@@ -36,6 +36,8 @@ scrapy crawl books -O books.jsonl
 scrapy crawl books -O books_750.jsonl -s CLOSESPIDER_ITEMCOUNT=750
 ```
 
+Extracted data: [books.json](Books/books.json)
+
 ## 2.2 — Quotes Spider
 
 This spider uses a simple downloader middleware for Selenium to process JS before scrapping.
@@ -45,3 +47,5 @@ cd JsQuotes
 
 scrapy crawl quotes -O quotes.jsonl
 ```
+
+Extracted data: [quotes.json](JsQuotes/quotes.json)
