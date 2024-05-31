@@ -12,6 +12,9 @@ I've used [`uv`](https://pypi.org/project/uv/) to manage the Python virtual envi
 # You may install uv with pip
 pip install uv
 
+# Create a new virtual environment.
+uv venv
+
 # Activate the virtual environment on macOS and Linux.
 source .venv/bin/activate
 
